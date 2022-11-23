@@ -1,5 +1,7 @@
 # Handwriting Detection and Recognition with Neural Networks
 ### Alexander Chiu, Andrew Quintanilla, Milan Ghori, Akshay Pawar, Chinmayee Tapaskar
+
+https://github.com/AlChiu/HandWriting-OCR-CNN-WebApp
  
 ## Summary
 Our project consists of a model trained to convert the handwriting in images to text. The model will be trained on a desktop GPU to speed up the training. The model will then be saved and migrated to a server for use in a Flask web application. The application will be hosted on one of our laptops, but will be capable of being hosted on a service such as Heroku. Client-side, the page will upload images to the server, then output the results of the server’s analysis of the image. By using Tesseract and OpenCV to detect distinct blocks of text, we can output the text for each block separately. Client-side functionality could potentially be expanded by capturing photos from the user’s webcam, or even by saving handwriting drawn on the page. 
