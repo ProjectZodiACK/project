@@ -20,7 +20,7 @@ datafile = 'dataset.p'
 word_id_file = 'NeuralNet/word_ids.p'
 
 # Path to text file containing 1000 words to learn, one word per line
-words = set(open('NeuralNet/1-1000.txt').read().split())
+words = set(open('NeuralNet/google-10000-english-usa.txt').read().split())
 
 def load_data():
 	regexp = '[a-zA-Z]+'
