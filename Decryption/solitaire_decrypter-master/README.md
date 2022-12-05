@@ -1,5 +1,7 @@
 # Solitaire Cipher Decrypter
 
+https://github.com/fmurer/solitaire_decrypter
+
 This tool can be used to decrypt a cipher text that has been encrypted using the Solitaire cipher. Find more information about the Solitaire cipher on https://www.schneier.com/academic/solitaire/.
 
 # Install
