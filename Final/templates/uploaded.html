@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<p class="text-left">{{ fname }} successfully uploaded.</p>
+<div class="row">
+    <div class="col-md-5">
+        <div class="image-container">
+            <p class="text-left">Original Image</p>     
+            <a href="{{ fname }}" target="_new"><img src="{{ fname }}" class="upload-image-thumb"></a>
+        </div>
+        <div class="upload-form">
+            <p class="text-left">Upload another?</p>
+            <form action = "/upload-file" method = "POST" 
+                              enctype = "multipart/form-data">
+                <input type = "file" name = "file" />
+                <input type = "submit"/>
+            </form>
+           <br>
+           <p>Our handwritten optical character recognition is not working to our expected level of accuracy.<br>
+              Please type your encrypted message below:</p>
+           <form action = "/upload-solitaire"  method = "POST"
+                             enctype = "multipart/form-data">
+              <input type = "text" name = "text" size = "35" />
+              <input type = "submit" value="Solitaire" />
+              <input type = "submit" formaction="/upload-vigenere" value="Vigenere" />
+              <input type = "submit" formaction="/upload-caesar" value="Caesar" />
+          </form>
+        </div>        
+    </div>
+    <div class="col-md-7 ocr-text">
+        <p class="text-left">OCR Text from processed Image</p>
+        <textarea cols="30" rows="10">{{ displaytext }}</textarea>
+    </div>
+</div>  
+{% endblock %}
