@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-5">
+        <div class="image-container">
+            <h3><p class="text-left">Original Image</p></h3>
+            <a href="{{ fname }}" target="_new"><img src="{{ fname }}" class="upload-image-thumb"></a>
+            <br>
+            <font><b>Uploaded to:</b> {{ fname }}</font>
+            <br>
+            <br>
+            <h3><p class="text-left">Greyscale Image</p></h3>
+            <a href="{{ ofname }}" target="_new"><img src="{{ ofname }}" class="upload-image-thumb"></a>
+            <br>
+            <font><b>Uploaded to:</b> {{ ofname }}</font>
+            <br>
+            <br>
+        </div>
+            <div class="upload-form">
+                <form action = "/upload-file" method = "POST" 
+                enctype = "multipart/form-data">
+                <div>
+                  <br>
+                  <input type = "file" name = "file" />
+                  <br>
+                  <br>
+                </div>
+                <div>
+                  <select name="cipherChoice">
+                    <option value="cae" name="cipherChoice" selected="selected">Caesar Cipher</option>
+                    <option value="sol" name="cipherChoice">Solitaire Cipher</option>
+                    <option value="vig" name="cipherChoice">Vigenère Cipher</option>
+                  </select>
+                  <br>
+                  <br>
+                </div>
+              <div>
+                <input type = "submit"/ name="submit" value="Submit">
+              </div>
+              </form>
+            </div>
+        </div>        
+    </div>
+</div>
+<div>
+    <div class="col-md-7 ocr-text">
+        <p class="text-left">
+        <br>
+        <h3>Results</h3>
+        </p>
+        <font></font><b>Detected Text:</b> {{ encryptedtext }}</font>
+        <br>
+        <font><b>English Translation:</b> {{decryptedtext}}</font>
+        <br>
+        <font><b>French Translation:</b> {{frLang}}</font>
+        <br>
+        <font><b>Spanish Translation:</b> {{esLang}}</font>
+        </p>
+    </div>
+</div>  
+
+{% endblock %}
