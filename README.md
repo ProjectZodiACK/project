@@ -19,7 +19,6 @@
     An IST 440W FA22 Project
     <br />
     <br />
-    <br />
     <a href="https://zodiack.tk">View Demo</a>
     ·
     <a href="https://github.com/ProjectZodiack/project/issues">Report Bug</a>
@@ -140,6 +139,12 @@ Don't forget to give the project a star! Thanks again!
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
+### Team 1 Members
+* Caitlin Sullivan
+* Aaron Strohm
+* Sean Walsh
+
+### Resources
 * [Caddy Server](https://github.com/caddyserver/)
 * [Caddy Security](https://github.com/greenpau/caddy-security/)
 * [OCR Tesseract Docker](https://github.com/ricktorzynski/ocr-tesseract-docker)
@@ -148,7 +153,6 @@ Use this space to list resources you find helpful and would like to give credit 
 * [Solitaire Cipher](https://github.com/fmurer/solitaire_decrypter)
 * [TextBlob](https://github.com/sloria/TextBlob)
 * [Loguru](https://github.com/Delgan/loguru)
-* [Font Awesome](https://fontawesome.com)
 * [README Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
