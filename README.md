@@ -56,6 +56,7 @@
 This code is part of an integration project for Penn State's IST 440W capstone course. The code is heavily modified to perform optical character recognition (OCR) on a handwritten note, decrypted using three brute force methods, and then translated into three languages.
 
 
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
