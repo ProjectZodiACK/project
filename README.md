@@ -13,7 +13,7 @@
     <img src="static/img/ZodiACK.png" alt="Logo" width="80" height="90">
   </a>
 
-  <h3 align="center">ProjectZodiack</h3>
+  <h3 align="center">ProjectZodiACK</h3>
 
   <p align="center">
     An IST 440W FA22 Project
