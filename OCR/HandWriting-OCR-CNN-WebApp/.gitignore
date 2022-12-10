@@ -1,8 +1,0 @@
-*.jpg
-*.jpeg
-*.png
-*.box
-*.hocr
-__pycache__/
-CNN_model/
-detector/
