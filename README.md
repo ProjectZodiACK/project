@@ -18,10 +18,9 @@
   <p align="center">
     An IST 440W FA22 Project
     <br />
-    <a href="https://github.com/ProjectZodiack/project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https:/zodiack.tk">View Demo</a>
+    <a href="https://zodiack.tk">View Demo</a>
     ·
     <a href="https://github.com/ProjectZodiack/project/issues">Report Bug</a>
     ·
