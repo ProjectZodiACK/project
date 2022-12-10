@@ -106,6 +106,8 @@ Traverse to http://localhost:5000.
     - [x] French
 - [x] Logging
 - [x] File Explorer
+- [x] Caddy Web Server (demo)
+- [x] Caddy Security (demo) 
 
 See the [open issues](https://github.com/ProjectZodiack/project/issues) for a full list of proposed features (and known issues).
 
