@@ -65,6 +65,7 @@ It is recommended to put this solution behind proper authentication before deplo
 
 * <a href="https://www.python.org/downloads/">Python</a> and <a href="https://tesseract-ocr.github.io/tessdoc/Downloads.html">Tesseract</a> must be installed on the machine. 
 * The following command will install the requirements to run our code via pip.
+
   ```sh
   pip install -r requirements.txt
   ```
